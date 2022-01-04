@@ -1,0 +1,97 @@
+.download-background {
+  background:
+               /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */ url("../../public/scene1.png");
+  width: 100vw;
+  height: 85vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+#mail {
+  text-decoration: none;
+  color: white;
+}
+
+#mail:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.download-container {
+  margin: 5em;
+}
+
+.title-download {
+  width: 35em;
+}
+
+.download-selector {
+  margin-top: 0.5em;
+}
+
+.download-selector-button {
+  border: none;
+  background: none;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2em;
+  padding-left: 0.9em;
+  padding-right: 0.9em;
+  height: 2.3em;
+  margin-right: 0.1em;
+}
+
+.download-selector-button:hover {
+  border-bottom: 0.2em white solid;
+  color: white;
+  cursor: pointer;
+}
+
+.download-selector-button-current {
+  border: none;
+  border-bottom: 0.2em gray solid;
+  background: none;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2em;
+  padding-left: 0.9em;
+  padding-right: 0.9em;
+  height: 2.3em;
+  margin-right: 0.1em;
+}
+
+.download {
+  margin-top: 2em;
+}
+
+.download-title {
+  margin: 0;
+  margin-bottom: 1.5em;
+  color: white;
+  font-weight: bold;
+  font-size: 2.3em;
+}
+
+.download-button {
+  font-size: 1.1em;
+  border: none;
+  background-color: #303436;
+  color: gray;
+  font-weight: bold;
+  height: 3.5em;
+  width: 15em;
+  margin-right: 2em;
+}
+
+.download-button:hover {
+  color: white;
+  height: 3.6em;
+  width: 15.1em;
+  margin-right: 1.9em;
+  cursor: pointer;
+}
