@@ -6,7 +6,7 @@ export default function News() {
     <main>
       <div className="download-background">
         <div className="download-container">
-          <img className="title-download" src="/logo.png" alt="" />
+          <img className="title-download" src="/logo.png" alt="Logo" />
           <h2>Here you will find the News about Dangerous Digestion</h2>
         </div>
       </div>

@@ -1,16 +1,16 @@
 .scene-img {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  height: 92vh;
-  background-size: cover;
-
   background:
                /* top, transparent black, faked with gradient */ linear-gradient(
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
     /* bottom, image */ url("../../public/scene1.png");
+
+  width: 100vw;
+  height: 85vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
 .scene-container1 {
@@ -24,8 +24,6 @@
 }
 
 .scene-play-button {
-  margin-left: 30%;
-  margin-top: 1em;
   border: none;
   width: 20em;
   height: 4em;
@@ -39,6 +37,5 @@
   color: white;
   cursor: pointer;
   margin-top: 0.8em;
-  height: 4.2em;
-  width: 20.2em;
+  width: 21em;
 }
