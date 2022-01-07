@@ -35,10 +35,10 @@ export const Download = () => {
               <div>
                 <p className="download-title">Download for Windows</p>
                 <div>
-                  <a href="/dangerous-digestion-setup.exe" target="_blank" download>
+                  <a href="/dangerous-digestion-setup-64bit.exe" target="_blank" download>
                     <button className="download-button">64-bit</button>
                   </a>
-                  <a href="/dangerous-digestion-setup.exe" target="_blank" download>
+                  <a href="/dangerous-digestion-setup-32bit.exe" target="_blank" download>
                     <button className="download-button">32-bit</button>
                   </a>
                 </div>
