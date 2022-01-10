@@ -4,13 +4,14 @@ export default function Game() {
   return (
     <div>
       <center>
-        <iframe title="game" src="https://itch.io/embed/1348943" height="167" width="55%" frameborder="0">
+        <iframe title="game1" src="https://itch.io/embed/1348943" height="167" width="55%" frameborder="0">
           <a href="https://karottenkopf.itch.io/dangerous-digestion">Dangerous Digestion by Janick</a>
         </iframe>
       </center>
       <br />
       <center>
         <iframe
+          title="game2"
           id="webgl_iframe"
           frameborder="0"
           allow="autoplay; fullscreen; vr"
