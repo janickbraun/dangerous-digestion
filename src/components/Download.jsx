@@ -9,7 +9,7 @@ export const Download = () => {
     <main>
       <div className="download-background">
         <div className="download-container">
-          <img className="title-download" src="/logo.png" alt="" />
+          <img className="title-download" src="/logo.png" alt="title" />
           <div className="download-selector">
             <button
               onClick={() => setDownload("windows")}
@@ -28,6 +28,12 @@ export const Download = () => {
               className={download === "linux" ? "download-selector-button-current" : "download-selector-button"}
             >
               Linux
+            </button>
+            <button
+              onClick={() => setDownload("web")}
+              className={download === "web" ? "download-selector-button-current" : "download-selector-button"}
+            >
+              Web
             </button>
           </div>
           <div className="download">
@@ -50,11 +56,20 @@ export const Download = () => {
                   <h2>Releasing soon</h2>
                 </div>
               </div>
-            ) : (
+            ) : download === "linux" ? (
               <div>
                 <p className="download-title">Download for Linux</p>
                 <div>
                   <h2>Releasing soon</h2>
+                </div>
+              </div>
+            ) : (
+              <div>
+                <p className="download-title">Play in your Browser</p>
+                <div>
+                  <a href="/game">
+                    <button className="download-button">PLAY NOW!</button>
+                  </a>
                 </div>
               </div>
             )}

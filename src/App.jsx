@@ -8,6 +8,7 @@ import News from "./components/News"
 import Support from "./components/Support"
 import { Header } from "./components/Header"
 import { Footer } from "./components/Footer"
+import Game from "./components/Game"
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/download" element={<Download />} />
         <Route path="/news" element={<News />} />
         <Route path="/support" element={<Support />} />
+        <Route path="/game" element={<Game />} />
       </Routes>
       <Footer />
     </Router>
