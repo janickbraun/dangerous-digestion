@@ -67,8 +67,11 @@ export const Download = () => {
               <div>
                 <p className="download-title">Play in your Browser</p>
                 <div>
-                  <a href="/game">
-                    <button className="download-button">PLAY NOW!</button>
+                  <a href="/web-pc">
+                    <button className="download-button">Play on PC</button>
+                  </a>
+                  <a href="/web-mobile">
+                    <button className="download-button">Play On Mobile</button>
                   </a>
                 </div>
               </div>

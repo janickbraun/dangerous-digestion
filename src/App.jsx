@@ -8,7 +8,8 @@ import News from "./components/News"
 import Support from "./components/Support"
 import { Header } from "./components/Header"
 import { Footer } from "./components/Footer"
-import Game from "./components/Game"
+import WebPC from "./components/WebPC"
+import WebMobile from "./components/WebMobile.jsx"
 
 export default function App() {
   return (
@@ -19,7 +20,8 @@ export default function App() {
         <Route path="/download" element={<Download />} />
         <Route path="/news" element={<News />} />
         <Route path="/support" element={<Support />} />
-        <Route path="/game" element={<Game />} />
+        <Route path="/web-pc" element={<WebPC />} />
+        <Route path="/web-mobile" element={<WebMobile />} />
       </Routes>
       <Footer />
     </Router>
