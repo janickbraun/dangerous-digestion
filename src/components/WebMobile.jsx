@@ -4,13 +4,14 @@ export default function WebMobile() {
   return (
     <div>
       <center>
-        <iframe src="https://itch.io/embed/1350012" height="167" width="55%" frameborder="0">
+        <iframe title="game3" src="https://itch.io/embed/1350012" height="167" width="55%" frameborder="0">
           <a href="https://karottenkopf.itch.io/dangerous-digestion-mobile">
             Dangerous Digestion Mobile by Karottenkopf
           </a>
         </iframe>
         <br />
         <iframe
+          title="game4"
           id="webgl_iframe"
           frameborder="0"
           allow="autoplay; fullscreen; vr"
